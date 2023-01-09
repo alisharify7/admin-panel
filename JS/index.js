@@ -13,6 +13,8 @@ let chart = new Chart(done_projects, {
       }]
     },
     options: {
+      responsive: true,
+      maintainAspectRatio: false,
       scales: {
         y: {
           beginAtZero: true
@@ -32,6 +34,8 @@ let chart_wait = new Chart(wait_projects, {
       }]
     },
     options: {
+      responsive: true,
+      maintainAspectRatio: false,
       scales: {
         y: {
           beginAtZero: true
@@ -51,6 +55,8 @@ let chart_doing = new Chart(doing_projects, {
       }]
     },
     options: {
+      responsive: true,
+      maintainAspectRatio: false,
       scales: {
         y: {
           beginAtZero: true
@@ -102,17 +108,17 @@ window.addEventListener("DOMContentLoaded", (e)=>{
   })
 
 if(window.innerWidth <= 768){
-if(!document.querySelector(".btn-close-menu").classList.contains("closed"))
-{
-  document.querySelector(".btn-close-menu").click()
-}
+        if(!document.querySelector(".btn-close-menu").classList.contains("closed"))
+        {
+          document.querySelector(".btn-close-menu").click()
+        }
 }
 if(window.innerWidth >= 948){
 // if size is ok automaticlly open size navbar
-if(document.querySelector(".btn-close-menu").classList.contains("closed"))
-{
-  document.querySelector(".btn-close-menu").click()
-}
+        if(document.querySelector(".btn-close-menu").classList.contains("closed"))
+        {
+          document.querySelector(".btn-close-menu").click()
+        }
 }
 
 })
