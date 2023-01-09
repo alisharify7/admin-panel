@@ -12,6 +12,7 @@ live version : https://alisharify7.github.io/admin-panel/
 Some Image of Project:
 
 <img src="./assets/doc/1.png">
+<img src="./assets/doc/4.png">
 
 <img src="./assets/doc/2.png">
 
