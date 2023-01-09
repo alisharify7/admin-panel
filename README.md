@@ -15,3 +15,5 @@ some Image of project:
 <img src="./assets/demo/two.png">
 <img src="./assets/demo/theree.png">
 
+TODO:
+some issues in mobile size responsive had to be fixed 
