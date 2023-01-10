@@ -11,7 +11,7 @@ document.querySelector(".persian-date-now").value =`${new String(dt[0])}-${new S
 window.setInterval(
   (e)=>{
     let time_now = new Date()
-    let time = `${time_now.getHours()}:${time_now.getSeconds()}`
+    let time = `${time_now.getHours()}:${time_now.getMinutes()}:${time_now.getSeconds()} `
     document.querySelector(".persian-time-now").textContent=time
   }, 1000
 )
